@@ -81,3 +81,13 @@ header {
 .contact:hover {
     background-color: #333;
 }
+
+.mainvisual{
+    margin-bottom: 120px;
+}
+
+.mainvisual img {
+    width: 100%;
+    height: calc(100vh - 80px);
+    object-fit: cover;
+}
