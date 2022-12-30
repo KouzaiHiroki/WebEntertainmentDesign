@@ -92,6 +92,33 @@ header {
     object-fit: cover;
 }
 
+.sectitle {
+    font-weight: normal;
+    line-height: 1;
+    margin-bottom: 50px;
+}
+
+.sectitle::after {
+    content: "";
+    width: 40px;
+    height: 1px;
+    background-color: #000;
+    display: block;
+}
+
+.titleen {
+    display: block;
+    font-size: 2.25rem;
+    letter-spacing: 0.3em;
+    margin-bottom: 10px;
+}
+
+.titleja {
+    display: block;
+    font-size: 0.875rem;
+    margin-bottom: 36px;
+}
+
 .news {
     margin-bottom: 120px;
 }
@@ -131,3 +158,4 @@ header {
     margin-left: 10px;
     text-align: center;
 }
+
