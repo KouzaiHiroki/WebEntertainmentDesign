@@ -182,3 +182,46 @@ header {
 .abouttext p {
     line-height: 2.2;
 }
+
+.bussiness {
+    margin-bottom: 120px;
+}
+
+.bussinesscontents {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.contentleft {
+    width: 46%;
+    margin-top: 100px;
+}
+
+.contentright {
+    width: 46%;
+}
+
+.bussinesscontent {
+    margin-bottom: 50px;
+}
+
+.bussinesscontent:last-child {
+    margin-bottom: 0;
+}
+
+.bussinesstitle {
+    font-weight: bold;
+    margin: 0 0 10px 18px;
+    position: relative;
+}
+
+.bussinesstitle::before {
+    content: "";
+    width: 8px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: -18px;  
+}
