@@ -297,6 +297,8 @@ footer {
 
 .footerlogo {
     margin-right: 0;
+    width: 100px;
+    line-height: 1px;
 }
 
 .copyright {
